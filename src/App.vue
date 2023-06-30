@@ -1,17 +1,28 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js p" /> -->
+  <!-- <ForLoop /> -->
+  <!-- <ParentPropS /> -->
+  <!-- <ReuMainComp /> -->
+  <HtmlBindingVue />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from "./components/HelloWorld.vue";
+// import ForLoop from "./components/ForLoop.vue";
+// import ParentPropS from "./components/ParentPropS.vue";
+// import ReuMainComp from "./components/ReuMainComp.vue";
+import HtmlBindingVue from "./components/HtmlBinding.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    // HelloWorld,
+    // ForLoop,
+    // ParentPropS,
+    // ReuMainComp,
+    HtmlBindingVue,
+  },
+};
 </script>
 
 <style>
@@ -22,5 +33,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  width: 100vw;
 }
 </style>
