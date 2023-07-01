@@ -1,5 +1,9 @@
 <template>
   <!-- <HelloWorld msg="Welcome to Your Vue.js p" /> -->
+  <!-- <Basics /> -->
+  <!-- <ConditionalRendering /> -->
+  <!-- <InputField /> -->
+
   <!-- <ForLoop /> -->
   <!-- <ParentPropS /> -->
   <!-- <ReuMainComp /> -->
@@ -7,6 +11,10 @@
 </template>
 
 <script>
+// import Basics from "./components/Basics.vue";
+// import ConditionalRendering from "./components/ConditionalRendering.vue";
+// import InputField from "./components/InputField.vue";
+
 // import HelloWorld from "./components/HelloWorld.vue";
 // import ForLoop from "./components/ForLoop.vue";
 // import ParentPropS from "./components/ParentPropS.vue";
@@ -16,6 +24,9 @@ import HtmlBindingVue from "./components/HtmlBinding.vue";
 export default {
   name: "App",
   components: {
+    // Basics,
+    // ConditionalRendering,
+    // InputField,
     // HelloWorld,
     // ForLoop,
     // ParentPropS,
