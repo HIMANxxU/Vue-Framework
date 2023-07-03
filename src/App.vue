@@ -11,11 +11,13 @@
   <!-- <ClassBinding /> -->
   <!-- <ReF /> -->
   <!-- <ParentComp /> -->
-  <SimpleFormVue />
+  <!-- <SimpleFormVue /> -->
+  <!-- <ModisierS /> -->
+  <!-- <ComputeD /> -->
+  <WatcherS />
 </template>
 
 <script>
-import SimpleFormVue from './components/Form/SimpleForm.vue';
 // import Basics from "./components/Basics.vue";
 // import ConditionalRendering from "./components/ConditionalRendering.vue";
 // import InputField from "./components/InputField.vue";
@@ -28,7 +30,10 @@ import SimpleFormVue from './components/Form/SimpleForm.vue';
 // import ClassBinding from "./components/ClassBinding.vue";
 // import ParentComp from "./components/Props/ParentProp.vue"
 // import ReF from "./components/Ref.vue";
-
+// import SimpleFormVue from './components/Form/SimpleForm.vue';
+// import ModisierS from "./components/Modifiers.vue";
+// import ComputeD from "./components/ComputeD.vue"
+import WatcherS from "./components/WatcherS.vue";
 
 export default {
   name: "App",
@@ -44,7 +49,10 @@ export default {
     // ClassBinding,
     // ParentComp,
     // ReF,
-    SimpleFormVue
+    // SimpleFormVue,
+    // ModisierS,
+    // ComputeD,
+    WatcherS,
   },
 };
 </script>
